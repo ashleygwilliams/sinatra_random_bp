@@ -1,0 +1,15 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Sinatra Single-Serve</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+    <style>
+      body {
+        background: <%= Random::getRandomColor() %>;
+      }
+    </style>
+  </head>
+  <body>
+    <%= yield %>
+  </body>
+</html>
