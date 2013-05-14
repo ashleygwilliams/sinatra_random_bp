@@ -19,8 +19,12 @@ class BigApp < Sinatra::Application
     erb :index
   end
 
-  get 'scraper' do
+  get '/scraper' do
     erb :scraper
+  end
+
+  get '/json' do
+    erb :json
   end
 
   get "/stylesheet.css" do

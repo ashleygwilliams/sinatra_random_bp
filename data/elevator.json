@@ -1,0 +1,353 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "u3bu-v2bf",
+      "name" : "Top Ten Elevator Offenders",
+      "attribution" : "Department of Buildings (DOB)",
+      "averageRating" : 0,
+      "category" : "Facilities and Structures",
+      "createdAt" : 1318294305,
+      "description" : "Top Ten Elevator Offenders",
+      "displayType" : "table",
+      "downloadCount" : 27,
+      "numberOfComments" : 0,
+      "oid" : 343134,
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1318294337,
+      "publicationGroup" : 244589,
+      "publicationStage" : "published",
+      "rowClass" : "",
+      "rowsUpdatedAt" : 1318294310,
+      "rowsUpdatedBy" : "txun-eb7e",
+      "signed" : false,
+      "tableId" : 244589,
+      "totalTimesRated" : 0,
+      "viewCount" : 630,
+      "viewLastModified" : 1363704944,
+      "viewType" : "tabular",
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : {
+        }
+      }, {
+        "id" : 3002986,
+        "name" : "Owner",
+        "dataTypeName" : "text",
+        "fieldName" : "owner",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1570119,
+        "width" : 160,
+        "cachedContents" : {
+          "non_null" : 10,
+          "smallest" : "100 Audubon Holdings, LP",
+          "null" : 0,
+          "largest" : "Tivoli Towers Housing Co.",
+          "top" : [ {
+            "count" : 20,
+            "item" : "Heights Inter-Neighborhood HDF"
+          }, {
+            "count" : 19,
+            "item" : "1627-1635 Amsterdam Avenue LLC"
+          }, {
+            "count" : 18,
+            "item" : "129-135 Ridge Street, HDFC"
+          }, {
+            "count" : 17,
+            "item" : "Thermald Realty Associates LLP"
+          }, {
+            "count" : 16,
+            "item" : "941 Intervale Realty"
+          }, {
+            "count" : 15,
+            "item" : "885 Third Owner LLC"
+          }, {
+            "count" : 14,
+            "item" : "100 Audubon Holdings, LP"
+          }, {
+            "count" : 13,
+            "item" : "Tivoli Towers Housing Co."
+          }, {
+            "count" : 12,
+            "item" : "Fulton Park Site 4 Houses, Inc."
+          }, {
+            "count" : 11,
+            "item" : "Harlem River Park Houses aka River Park Associates"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002987,
+        "name" : "Street Address",
+        "dataTypeName" : "text",
+        "fieldName" : "street_address",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 1570120,
+        "width" : 268,
+        "cachedContents" : {
+          "non_null" : 10,
+          "smallest" : "10 Richman Plaza",
+          "null" : 0,
+          "largest" : "941 Intervale Avenue",
+          "top" : [ {
+            "count" : 20,
+            "item" : "1694 Davidson Ave"
+          }, {
+            "count" : 19,
+            "item" : "476 West 141 Street"
+          }, {
+            "count" : 18,
+            "item" : "129 Ridge Street"
+          }, {
+            "count" : 17,
+            "item" : "91 East Third Street"
+          }, {
+            "count" : 16,
+            "item" : "941 Intervale Avenue"
+          }, {
+            "count" : 15,
+            "item" : "885 Third Avenue"
+          }, {
+            "count" : 14,
+            "item" : "551 West 170th Street"
+          }, {
+            "count" : 13,
+            "item" : "49 Crown Street"
+          }, {
+            "count" : 12,
+            "item" : "1711 Fulton Street"
+          }, {
+            "count" : 11,
+            "item" : "10 Richman Plaza"
+          } ]
+        },
+        "format" : {
+        }
+      }, {
+        "id" : 3002988,
+        "name" : "Location 1",
+        "dataTypeName" : "location",
+        "fieldName" : "location_1",
+        "position" : 4,
+        "renderTypeName" : "location",
+        "tableColumnId" : 1570121,
+        "width" : 220,
+        "cachedContents" : {
+          "non_null" : 10,
+          "smallest" : {
+            "longitude" : "-73.91844899972153",
+            "latitude" : "40.82557699997852",
+            "human_address" : "{\"address\":\"10 Richman Plaza\",\"city\":\"Bronx\",\"state\":\"NY\",\"zip\":\"\"}"
+          },
+          "null" : 0,
+          "largest" : {
+            "longitude" : "-73.89692832141648",
+            "latitude" : "40.821035486559545",
+            "human_address" : "{\"address\":\"941 Intervale Avenue\",\"city\":\"Bronx\",\"state\":\"NY\",\"zip\":\"\"}"
+          },
+          "top" : [ {
+            "count" : 20,
+            "item" : {
+              "longitude" : "-73.91400146662433",
+              "latitude" : "40.84694407041451",
+              "human_address" : "{\"address\":\"1694 Davidson Ave\",\"city\":\"Bronx\",\"state\":\"NY\",\"zip\":\"\"}"
+            }
+          }, {
+            "count" : 19,
+            "item" : {
+              "longitude" : "-73.94885071508074",
+              "latitude" : "40.82240435307847",
+              "human_address" : "{\"address\":\"476 141 Street\",\"city\":\"New York\",\"state\":\"NY\",\"zip\":\"\"}"
+            }
+          }, {
+            "count" : 18,
+            "item" : {
+              "longitude" : "-73.98289508051067",
+              "latitude" : "40.71950537368474",
+              "human_address" : "{\"address\":\"129 Ridge Street\",\"city\":\"New York\",\"state\":\"NY\",\"zip\":\"\"}"
+            }
+          }, {
+            "count" : 17,
+            "item" : {
+              "longitude" : "-73.9869510002884",
+              "latitude" : "40.756053999992105",
+              "human_address" : "{\"address\":\"91 Third Street\",\"city\":\"New York\",\"state\":\"NY\",\"zip\":\"\"}"
+            }
+          }, {
+            "count" : 16,
+            "item" : {
+              "longitude" : "-73.89692832141648",
+              "latitude" : "40.821035486559545",
+              "human_address" : "{\"address\":\"941 Intervale Avenue\",\"city\":\"Bronx\",\"state\":\"NY\",\"zip\":\"\"}"
+            }
+          }, {
+            "count" : 15,
+            "item" : {
+              "longitude" : "-73.96916243312324",
+              "latitude" : "40.75800534975912",
+              "human_address" : "{\"address\":\"885 Third Avenue\",\"city\":\"New York\",\"state\":\"NY\",\"zip\":\"\"}"
+            }
+          }, {
+            "count" : 14,
+            "item" : {
+              "longitude" : "-73.93800768357518",
+              "latitude" : "40.8419275035329",
+              "human_address" : "{\"address\":\"551 170th Street\",\"city\":\"New York\",\"state\":\"NY\",\"zip\":\"\"}"
+            }
+          }, {
+            "count" : 13,
+            "item" : {
+              "longitude" : "-73.95991278165833",
+              "latitude" : "40.667314293900304",
+              "human_address" : "{\"address\":\"49 Crown Street\",\"city\":\"Brooklyn\",\"state\":\"NY\",\"zip\":\"\"}"
+            }
+          }, {
+            "count" : 12,
+            "item" : {
+              "longitude" : "-73.93017152973913",
+              "latitude" : "40.67936060442289",
+              "human_address" : "{\"address\":\"1711 Fulton Street\",\"city\":\"Brooklyn\",\"state\":\"NY\",\"zip\":\"\"}"
+            }
+          }, {
+            "count" : 11,
+            "item" : {
+              "longitude" : "-73.91844899972153",
+              "latitude" : "40.82557699997852",
+              "human_address" : "{\"address\":\"10 Richman Plaza\",\"city\":\"Bronx\",\"state\":\"NY\",\"zip\":\"\"}"
+            }
+          } ]
+        },
+        "format" : {
+        },
+        "subColumnTypes" : [ "human_address", "latitude", "longitude", "machine_address", "needs_recoding" ]
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "custom_fields" : {
+          "Update" : {
+            "Update Frequency" : "As needed"
+          }
+        },
+        "renderTypeConfig" : {
+          "visible" : {
+            "table" : true
+          }
+        },
+        "availableDisplayTypes" : [ "table", "fatrow", "page" ],
+        "rdfSubject" : "0",
+        "rowIdentifier" : "0",
+        "rdfClass" : ""
+      },
+      "owner" : {
+        "id" : "txun-eb7e",
+        "displayName" : "Albert Webber",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileLastModified" : 1364930827,
+        "roleName" : "administrator",
+        "screenName" : "Albert Webber",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session" ]
+      },
+      "query" : {
+      },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "txun-eb7e",
+        "displayName" : "Albert Webber",
+        "emailUnsubscribed" : false,
+        "privacyControl" : "login",
+        "profileLastModified" : 1364930827,
+        "roleName" : "administrator",
+        "screenName" : "Albert Webber",
+        "rights" : [ "create_datasets", "edit_others_datasets", "edit_sdp", "edit_site_theme", "moderate_comments", "manage_users", "chown_datasets", "edit_nominations", "approve_nominations", "feature_items", "federations", "manage_stories", "manage_approval", "change_configurations", "view_domain", "view_others_datasets", "edit_pages", "create_pages", "short_session" ]
+      },
+      "tags" : [ "dob", "department of buildings", "buildings", "disciplinary actions", "electrician", "plumber", "master plumber", "architect", "engineer", "surrender of privileges", "elevator", "offender", "2010", "2011", "clean web" ],
+      "flags" : [ "default" ]
+    }
+  },
+  "data" : [ [ 1, "4246D7F2-02C7-4939-9386-65A570FF4364", 1, 1318294306, "392904", 1318294310, "392904", "{\n}", "Heights Inter-Neighborhood HDF", "1694 Davidson Ave", [ "{\"address\":\"1694 Davidson Ave\",\"city\":\"Bronx\",\"state\":\"NY\",\"zip\":\"\"}", "40.84694407041451", "-73.91400146662433", null, false ] ]
+, [ 2, "6BF6ED59-4D78-4A57-87A3-D849CF5B5D08", 2, 1318294306, "392904", 1318294310, "392904", "{\n}", "1627-1635 Amsterdam Avenue LLC", "476 West 141 Street", [ "{\"address\":\"476 141 Street\",\"city\":\"New York\",\"state\":\"NY\",\"zip\":\"\"}", "40.82240435307847", "-73.94885071508074", null, false ] ]
+, [ 3, "6012A7E8-FC08-4F26-AF97-8C430BF0FDEB", 3, 1318294306, "392904", 1318294310, "392904", "{\n}", "129-135 Ridge Street, HDFC", "129 Ridge Street", [ "{\"address\":\"129 Ridge Street\",\"city\":\"New York\",\"state\":\"NY\",\"zip\":\"\"}", "40.71950537368474", "-73.98289508051067", null, false ] ]
+, [ 4, "A6D882AB-27E1-4148-8887-A38174FAF480", 4, 1318294306, "392904", 1318294310, "392904", "{\n}", "Thermald Realty Associates LLP", "91 East Third Street", [ "{\"address\":\"91 Third Street\",\"city\":\"New York\",\"state\":\"NY\",\"zip\":\"\"}", "40.756053999992105", "-73.9869510002884", null, false ] ]
+, [ 5, "A5DE1EAF-B69A-4ECD-9939-30C8B9FA30D9", 5, 1318294306, "392904", 1318294310, "392904", "{\n}", "941 Intervale Realty", "941 Intervale Avenue", [ "{\"address\":\"941 Intervale Avenue\",\"city\":\"Bronx\",\"state\":\"NY\",\"zip\":\"\"}", "40.821035486559545", "-73.89692832141648", null, false ] ]
+, [ 6, "F6E988FA-1C55-44EB-B6DC-1812B5AE4FC1", 6, 1318294306, "392904", 1318294310, "392904", "{\n}", "885 Third Owner LLC", "885 Third Avenue", [ "{\"address\":\"885 Third Avenue\",\"city\":\"New York\",\"state\":\"NY\",\"zip\":\"\"}", "40.75800534975912", "-73.96916243312324", null, false ] ]
+, [ 7, "98C8C5D3-82F2-4543-A3F9-916AB3A9149D", 7, 1318294306, "392904", 1318294310, "392904", "{\n}", "100 Audubon Holdings, LP", "551 West 170th Street", [ "{\"address\":\"551 170th Street\",\"city\":\"New York\",\"state\":\"NY\",\"zip\":\"\"}", "40.8419275035329", "-73.93800768357518", null, false ] ]
+, [ 8, "E10D8AD1-5F0C-4F8D-BDB3-C294E317E234", 8, 1318294306, "392904", 1318294310, "392904", "{\n}", "Tivoli Towers Housing Co.", "49 Crown Street", [ "{\"address\":\"49 Crown Street\",\"city\":\"Brooklyn\",\"state\":\"NY\",\"zip\":\"\"}", "40.667314293900304", "-73.95991278165833", null, false ] ]
+, [ 9, "2523D86A-3853-4C50-BAD2-41F5C8AEF12E", 9, 1318294306, "392904", 1318294310, "392904", "{\n}", "Fulton Park Site 4 Houses, Inc.", "1711 Fulton Street", [ "{\"address\":\"1711 Fulton Street\",\"city\":\"Brooklyn\",\"state\":\"NY\",\"zip\":\"\"}", "40.67936060442289", "-73.93017152973913", null, false ] ]
+, [ 10, "F09BD1A5-95F8-4861-8D90-193E3915BAA5", 10, 1318294306, "392904", 1318294310, "392904", "{\n}", "Harlem River Park Houses aka River Park Associates", "10 Richman Plaza", [ "{\"address\":\"10 Richman Plaza\",\"city\":\"Bronx\",\"state\":\"NY\",\"zip\":\"\"}", "40.82557699997852", "-73.91844899972153", null, false ] ]
+ ]
+}
