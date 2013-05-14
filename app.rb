@@ -19,6 +19,10 @@ class BigApp < Sinatra::Application
     erb :index
   end
 
+  get 'scraper' do
+    erb :scraper
+  end
+
   get "/stylesheet.css" do
     erb :styles, :layout => false
   end
