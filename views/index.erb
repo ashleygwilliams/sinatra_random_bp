@@ -2,4 +2,8 @@
 <a href="" class="btn">Button</a>
 <h2><%= Random::WORDS.sample %></h2>
 <img src="/img/robots/large<%= Random::getRandomNumber()%>.jpg"/>
-<%= Scraper::getTableData %>
+<ul>
+	<% Scraper::getTableData.each do |td| %>
+		<li><%= td %></li>
+	<% end %>
+</ul>

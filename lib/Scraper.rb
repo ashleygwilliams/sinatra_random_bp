@@ -5,17 +5,18 @@ class Scraper
   
 
   def self.getTableData
-
     download = open("http://www.dol.gov/olms/regs/compliance/cba/Cba_CaCn.htm")
 
-  html = Nokogiri::HTML(download)
-  tables = html.search("table")
-  table = tables[1]
+    html = Nokogiri::HTML(download)
+    tables = html.search("table")
+    table = tables[1]
+    tds = []
     table.search('tr')[1..4].each do |tr|
       tr.search('td').each do |td|
-        return td.text
+        tds.push(td.text)
       end
     end
+    return tds
   end
 
 end
