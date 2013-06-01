@@ -27,6 +27,14 @@ class BigApp < Sinatra::Application
     erb :json
   end
 
+  get '/map' do
+    erb :map
+  end
+
+  get '/prettymap' do
+    erb :prettymap
+  end
+
   get "/stylesheet.css" do
     erb :styles, :layout => false
   end

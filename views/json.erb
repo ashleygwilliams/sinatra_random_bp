@@ -1,10 +1,9 @@
 <% myData = JSON_parse.new %>
 <ul>
-<% myData.json_obj["data"].each do |dataset| %>
+<% myData.json_obj["meta"].each do |dataset| %>
+	<% asthma = dataset[1] %>
 	<li>
-		<strong>Name:</strong><%= dataset[8] %></br>
-		<strong>Address:</strong><%= dataset[9] %></br>
-
+		<%= asthma %>
 	</li>
 <% end %>
 </ul>

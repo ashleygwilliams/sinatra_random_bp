@@ -3,6 +3,7 @@ GEM
   specs:
     multi_json (1.7.3)
     nokogiri (1.5.9)
+    polylines (0.1.1)
     rack (1.5.2)
     rack-protection (1.5.0)
       rack
@@ -20,5 +21,6 @@ PLATFORMS
 DEPENDENCIES
   multi_json
   nokogiri
+  polylines
   shotgun
   sinatra
