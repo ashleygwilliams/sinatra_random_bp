@@ -5,18 +5,25 @@ class Scraper
   
 
   def self.getTableData
-    download = open("http://www.dol.gov/olms/regs/compliance/cba/Cba_CaCn.htm")
+    download = open("http://www.health.ny.gov/statistics/cancer/registry/appendix/neighborhoods.htm")
 
     html = Nokogiri::HTML(download)
     tables = html.search("table")
-    table = tables[1]
-    tds = []
-    table.search('tr')[1..4].each do |tr|
-      tr.search('td').each do |td|
-        tds.push(td.text)
+    table = tables[0]
+    neighborhoods = []
+    zips =[]
+    nzips = {}
+    table.search('tr').each do |tdd|
+      tdd.search('td').each do |td|
+        if td["headers"]== "header2"
+          neighborhoods.push(td.text.lstrip)
+        end
+        if td["headers"]== "header3"
+          zips.push(td.text.lstrip)
+        end
       end
     end
-    return tds
+    nzips = Hash[neighborhoods.zip(zips.map {|z| z.split /, /})]
   end
 
 end
